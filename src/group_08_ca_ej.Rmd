@@ -1,0 +1,21 @@
+---
+title: "Group 08 CA pollution burden"
+author: "Hannah Brady and Brendan McGovern"
+date: "11/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(janitor)
+```
+
+## Read in data
+
+```{r}
+ces3demo <- read_csv(here("data","ces3demographics.csv")) %>% 
+  clean_names()
+```
+
