@@ -25,8 +25,9 @@ ces3demo <- read_csv(here("data","ces3demographics.csv")) %>%
 ces3demo %>% 
   ggplot() +
   geom_hex(aes(x = white_percent, y = ces_3_0_score))+
-  labs(x = "% white (of population)", y = "CES 3.0 score") +
-  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
+  labs(x = "% white (of population)", y = "CES 3.0 score",
+       title = "Relationship between cumulative pollution burden and white populations") +
+  scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
 
