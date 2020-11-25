@@ -32,3 +32,5 @@ ces3demo %>%
 ```
 
 
+From the hexplot we can see that the overall trend reveals that there is a negative correlation between the percent of the community identifying white as the cumuluative pollution burden.
+
