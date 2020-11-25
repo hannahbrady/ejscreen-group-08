@@ -26,7 +26,7 @@ ces3demo %>%
   ggplot() +
   geom_hex(aes(x = white_percent, y = ces_3_0_score))+
   labs(x = "% white (of population)", y = "CES 3.0 score") +
-  scale_fill_gradient(low = "cyan3", high = "magenta") +
+  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
   theme_minimal()
 ```
 
